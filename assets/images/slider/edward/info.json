@@ -1,4 +1,11 @@
 {
     "original_file_name": "edward-cisneros-3_h6-1NPDGw-unsplash.jpg",
     "new_file_name": "edward.jpg"
+	"operations": [
+		{
+			"type": "resize",
+			"new_width": "1920",
+			"file_name": "edward-ms.jpg"
+		}
+	]
 }

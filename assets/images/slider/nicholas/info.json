@@ -1,4 +1,11 @@
 {
     "original_file_name": "nicholas-green-nPz8akkUmDI-unsplash.jpg",
-    "new_file_name": "nicholas.jpg"
+    "new_file_name": "nicholas.jpg",
+	"operations": [
+		{
+			"type": "resize",
+			"new_width": "1920",
+			"file_name": "nicholas-ms.jpg"
+		}
+	]
 }

@@ -1,4 +1,11 @@
 {
     "original_file_name": "ryoji-iwata-wUZjnOv7t0g-unsplash.jpg",
-    "new_file_name": "ryoji.jpg"
+    "new_file_name": "ryoji.jpg",
+	"operations": [
+		{
+			"type": "resize",
+			"new_width": "1920",
+			"file_name": "ryoji-ms.jpg"
+		}
+	]
 }

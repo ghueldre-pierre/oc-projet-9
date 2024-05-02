@@ -71,6 +71,7 @@ body {
 	width: 100%;
 
 }
+
 #about-me {
 	flex: 2
 }
@@ -79,20 +80,26 @@ body {
 	margin-bottom: 60px;
 	font-size: 30px;
 }
-.about-me__introduction {
-	font-family: 'Spectral';
-	font-weight: 800;
-	font-style: italic;
-	width: 60%;
-}
 #about-me p {
 	width: 80%;
 	font-size: 14px;
 }
-
-#gallery {
-	/*	min-height: 100vh; */
+p#about-me__introduction {
+	font-family: 'Spectral';
+	font-weight: 800;
+	font-style: italic;
+	width: 60%;
+	/* NOUVEAU */
+	font-size: 16px; /* contre la règle précédente */
+	line-height: 1.2em; /* pour respecter le style du h6 précédemment utilisé soit 19.2px */
+	margin-bottom: 0.5em; /* idem : 8px */
 }
+
+/*
+#gallery {
+	min-height: 100vh;
+}
+*/
 .title{
 	text-align: center;
 	padding-block: 2em;
